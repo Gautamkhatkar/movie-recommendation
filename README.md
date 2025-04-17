@@ -1,6 +1,7 @@
 # 🎬 Movie Recommendation System
 
 A smart movie recommender web application which recommends movies similar to your favorites based on content-based filtering. The application is developed using Python, Scikit-learn, and Streamlit, and utilizes the TMDB API to show movie posters, ratings, cast details, etc.
+
 ---
 
 ## 🔗 Live Demo
