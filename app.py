@@ -213,7 +213,7 @@ if "selected_movie" in st.session_state:
         st.image(poster)
 
     with col2:
-        movie_id = movies[movies['title'] == selected_movie_name].iloc[0].movie_id
+        movie_id = movies[movies['title'] == selected].iloc[0].movie_id
         selected_movie_info = fetch_movie_details(movie_id)
 
         # Extracting details properly
